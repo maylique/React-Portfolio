@@ -1,0 +1,9 @@
+.skills {
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+}
+
+.skills p {
+    padding: 0.6em 1.2em;
+}

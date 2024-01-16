@@ -1,0 +1,16 @@
+header * {
+    display: flex;
+}
+
+nav {
+    justify-content: space-between;
+}
+
+nav ul {
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+* {
+    list-style: none;
+}

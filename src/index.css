@@ -5,12 +5,22 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* background-color: #242424; */
 
+  background-color: var(--color1);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --color1: #23283e;
+  --color2: #2a2f4c;
+  --color3: #bdbddd;
+  --color4: #cdcdff;
+  --color5: #90a0d9;
+}
+main div div , main p {
+  background-color: var(--color2);
 }
 
 a {
@@ -35,7 +45,7 @@ h1 {
   line-height: 1.1;
 }
 
-button {
+button, footer a {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
